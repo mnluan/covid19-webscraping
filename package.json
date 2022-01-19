@@ -1,0 +1,25 @@
+{
+  "name": "covid19-webscraping",
+  "version": "1.0.0",
+  "description": "A node js application for collecting data about the covid-19 pandemic, and creating a json file with this data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnluan/covid19-webscraping.git"
+  },
+  "keywords": ["covid-19", "webscraping"],
+  "author": "Luan Nascimento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnluan/covid19-webscraping/issues"
+  },
+  "homepage": "https://github.com/mnluan/covid19-webscraping#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cheerio": "^1.0.0-rc.10",
+    "fs": "^0.0.1-security"
+  }
+}
