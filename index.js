@@ -1,7 +1,6 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require('fs');
-
 const url = "https://en.wikipedia.org/wiki/COVID-19_pandemic_by_country_and_territory";
 
 async function getData() {
