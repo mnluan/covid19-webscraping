@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/mnluan/covid19-webscraping.git"
   },
-  "keywords": ["covid-19", "webscraping"],
+  "keywords": [
+    "covid-19",
+    "webscraping"
+  ],
   "author": "Luan Nascimento",
   "license": "ISC",
   "bugs": {

@@ -7,7 +7,7 @@ async function getData() {
     const {data} = await axios.get(url);
     const $ = cheerio.load(data);
     const list = [];
-    $('.covid19-wrapper tbody tr').each((i, elem)=>{
+    $('.covid19-container tbody tr').each((i, elem)=>{
         if((i > 0)&&(i < 218)){
             const country = $(elem).find('th').text().replaceAll("\n", "");
             const cases = $(elem).find('td').last().text().replaceAll("\n", "");
